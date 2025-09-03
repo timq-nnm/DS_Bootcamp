@@ -1,0 +1,4 @@
+python -m cProfile financial.py 'MSFT' 'Total Revenue' > name?
+sort -k 2 -n -r profiling-http.txt > profiling-ncalls.txt 
+
+python -m cProfile -o profiling.pstats financial_enhanced.py 'MSFT' 'Total Revenue'

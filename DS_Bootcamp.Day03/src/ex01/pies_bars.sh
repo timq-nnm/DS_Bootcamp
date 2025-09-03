@@ -1,0 +1,1 @@
+termgraph dset.dat --color {cyan,red}

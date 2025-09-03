@@ -1,0 +1,15 @@
+Tue Apr 22 12:42:41 2025    profiling.pstats
+
+         962255 function calls (937567 primitive calls) in 2.364 seconds
+
+   Ordered by: cumulative time
+   List reduced from 2291 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    325/1    0.010    0.000    2.365    2.365 {built-in method builtins.exec}
+        1    0.002    0.002    2.365    2.365 financial_enhanced.py:1(<module>)
+        1    0.021    0.021    2.098    2.098 financial_enhanced.py:33(get_response)
+        1    0.000    0.000    1.740    1.740 financial_enhanced.py:13(check_response)
+        1    0.000    0.000    1.740    1.740 /Users/nick/Desktop/projects21/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/ex02/env/athislen/lib/python3.12/site-packages/httpx/_api.py:174(get)
+
+
